@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.main{
+    min-height:150vh;
+    background-image: url(Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;  
+}
+@-webkit-keyframes slidein {
+    from {background-position: top; background-size:3000px; }
+    to {background-position: -100px 0px;background-size:2750px;}
+    }
+    
+    @keyframes slidein {
+    from {background-position: top;background-size:3000px; }
+    to {background-position: -100px 0px;background-size:2750px;}
+}
+.h1-text-top{
+    color:#162938;
+    text-decoration: none;
+    transition: .5s;
+}
+.h1-text-top:hover{
+    cursor: pointer;
+    font-size: 4em;
+}
+.image-contact-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+}
+.Image{
+    border:2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow:  0 0 30px rgba(0,0,0,.5);
+    background-image: url(business-office-flatlay-contact-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:520px;
+    height: 620px;
+    margin-top: 130px;
+    margin-left: 220px;
+}
+.h1-text{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    text-align: center;
+    margin-right:200px;
+    margin-top: 15px;
+    transition: .5s;
+    cursor: pointer;
+}
+.h1-text:hover{
+    font-size: 40px;
+}
+.para-text{
+    margin-left:55px;
+}
+.container{
+    background-color: rgba(255,255,255,.5);
+    border:2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow:  0 0 30px rgba(0,0,0,.5);
+    width:520px;
+    height: 620px;
+    margin-top: 130px;
+    margin-right: 220px;
+}
+.inputs-1{
+    margin-left:55px;
+    margin-bottom: 9px;
+}
+.inputs-2{
+    margin-left:55px;
+    margin-bottom: 9px;
+}
+.inputs-2 label{
+    display: flex;
+}
+.rating{
+    margin-left:55px;
+    margin-bottom: 9px;
+}
+.buttons{
+    display: flex;
+    margin-left:170px;
+    gap:20px;
+}
+.line{
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 2px;
+    width:800px;
+    border-radius: 3px;
+    background-color: black;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color:BOB3BA;
+}
+.line-between{
+    height: 100px;
+    width: 2px;
+    background-color: black;
+}
+.one{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 9px;
+}
+.three{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 5px;
+}
