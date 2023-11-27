@@ -7,7 +7,7 @@
 }
 .main{
     min-height:150vh;
-    background-image: url(Mountain-Lake-Reflection-in-Nature-Scenery-4K-Wallpaper.jpg);
+    background-image: url(wp6897454-about-us-wallpapers.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@
     border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow:  0 0 30px rgba(0,0,0,.5);
-    background-image: url(business-office-flatlay-contact-us.jpg);
+    background-image: url(wp6897454-about-us-wallpapers.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +76,7 @@
 .para-text{
     margin-left:55px;
 }
-.container{
+.container-contact{
     background-color: rgba(255,255,255,.5);
     border:2px solid rgba(255,255,255,.5);
     border-radius: 20px;

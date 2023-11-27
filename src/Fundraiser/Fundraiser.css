@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    background-image: url(WhatsApp\ Image\ 2023-11-26\ at\ 21.01.11_505953bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Fundraiser{
+    color: #162938;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    padding-top: 50px;
+    background-image: url('https://cdn.wallpapersafari.com/99/79/vGbN5f.jpg');
+}
+.psty1{
+    font-weight: 400;
+    font-size: 25px;
+    margin-left:140px;
+}
+.psty2{
+    font-weight: 500;
+    font-size: 35px;
+    margin-top:20px;
+    margin-left:140px;
+}
+.psty3{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left:190px;
+}
+.box1{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.butsty1{
+    height: 30px;
+    margin-left: 100px;
+    border-radius:15px;
+    background-color: #28a745;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+.butsty1:hover{
+    background-color: #162938;
+    color: white;
+    height: 35px;
+    width:300px
+}
+.headflex{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.fundimgsty{
+    height: 500px;
+    width: 800px;
+    border-radius: 15px;
+}
+.fundimgsty:hover{
+    cursor: pointer;
+    transform: scale(1.2); 
+    transition: transform 0.3s ease;
+}
+.fundimg{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.about{
+    border: none;
+    background-color:lightblue;
+    color: #162938;
+    margin-bottom: 50px;
+    text-align: left;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 290px;
+    padding-left: 30px;
+    padding-top: 2px;
+    margin-left: 200px;
+}
+.abouthsty{
+    font-size: 35px;
+}
+.aboutpsty{
+    font-weight: 500;
+    font-size: 19px;
+}
+.abouthsty:hover{
+    font-size: 40px;
+    color: #28a745;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    transition: 0.2s ease-in-out;
+}
+
+.navbar{
+    display: flex;
+    background-color: #28a745;
+    gap: 850px;
+    height: 80px;
+}
+.nav1{
+    color: #162938;
+    margin-left: 50px;
+}
+.iconimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navbar2{
+    display: flex;
+    background-color: #28a745;
+    gap: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.navlist2{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav2{
+    margin-top: 15px;
+}
+.navlist{
+    display: flex; 
+      list-style: none;
+}
+.liststy {
+    position:relative;
+    color:#162938;
+    margin-left:40px;
+    cursor: pointer;
+}
+.liststy::after{
+    content:'';   
+     position:absolute;
+    left:0;    
+    bottom:-6px;
+    width:100%;  
+    height:3px;
+    background: #162938;  
+    border-radius:5px;
+    transform: scaleX(0);    
+    transform-origin:right;
+    transition :transform .2s;
+}
+.liststy:hover::after{
+    transform-origin: left; 
+    transform:scaleX(1);
+}
+.aboutflex{
+    display: flex;
+    gap: 50px;
+}
+.statistics{
+    background-color:lightblue;
+    color: #162938;
+    border-radius: 15px;
+    height: 290px;
+    width: 280px;
+    margin-top: 50px;
+}
+.statisimgsty{
+    width: 250px;
+    margin-left: 15px;
+    border-radius: 15px;
+    height: 70px;
+}
+.histflex{
+    display: flex;
+}
+.histbody{
+    padding: 20px;
+    border-radius: 15px;
+    background-color:lightblue;
+    width: 120px;
+}
+.histh{
+    font-size: 20px;
+    color: #28a745;
+}
+.histh:hover{
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.histlist{
+    list-style-type: none;
+}
+.histlistitem{
+    background-color: lightgray;
+    border:1px solid black;
+    border-radius: 5px;
+    color: #162938;
+    margin-left: -50px;
+    margin-bottom: 10px;
+}

@@ -35,9 +35,6 @@ from {background-position: top;background-size:3000px; }
 to {background-position: -100px 0px;background-size:2750px;}
 
 }
-
-
-
 header{
     position:fixed;
     top:0;
@@ -114,7 +111,8 @@ header{
     transition: height .2s ease;
 }
 .wrapper.active{
-    height: 520px;
+    margin-top: -50px;
+    height: 560px;
     width:440px;
 }
 .wrapper .form-login{
@@ -193,7 +191,6 @@ header{
 }
 .remember-forget label input{
     accent-color: #162938;
-    margin-left: -120px;
 }
 .remember-forget a{
     color:#162938;
@@ -213,6 +210,10 @@ header{
      font-size: 1em;
      color:#ffff;
      font-weight: 500;
+     transition: .5s;
+}
+.btn-login:hover{
+    background-color:darkslategrey;
 }
 .login-register{
     font-size: .9em;

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "registeruser": "Hari",
+      "registeremail": "Hari@gmail.com",
+      "registerpass": "Hari123@",
+      "id": 1
+    },
+    {
+      "registeruser": "guru",
+      "registeremail": "guru@gmail.com",
+      "registerpass": "guru",
+      "id": 2
+    },
+    {
+      "registeruser": "gunesh17",
+      "registeremail": "gunesh@gmail.com",
+      "registerpass": "Guru1234!",
+      "id": 3
+    }
+  ]
+}
